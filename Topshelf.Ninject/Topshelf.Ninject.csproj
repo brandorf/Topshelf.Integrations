@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0; netcoreapp2.2; net472</TargetFrameworks>
+    <Version>0.4.1</Version>
+    <Authors>Mark Huber, Brandon Kiesling</Authors>
+    <Company>Dealertrack Interactive</Company>
+    <PackageLicenseUrl>https://github.com/dtinteractive/Topshelf.Integrations/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://www.github.com/dtinteractive/Topshelf.Integrations/</PackageProjectUrl>
+    <PackageReleaseNotes>0.4.1 - Repackaged to allow .net Core</PackageReleaseNotes>
+    <Description>Topshelf.Ninject provides extensions to construct your service class from your Ninject IoC container.</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ninject" Version="3.3.4" />
+    <PackageReference Include="Topshelf" Version="4.2.0" />
+  </ItemGroup>
+
+</Project>
